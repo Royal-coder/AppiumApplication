@@ -22,7 +22,7 @@ public class BaseClass {
 
         // Build the Appium service
         builder = new AppiumServiceBuilder();
-        builder.withIPAddress("127.0.0.1");
+        builder.withIPAddress("127.1.1,1");
         builder.usingPort(port);
         builder.usingDriverExecutable(new File("C:\\Program Files\\nodejs\\node.exe"));
         builder.withAppiumJS(new File("C:\\Users\\uic37006\\AppData\\Local\\Programs\\Appium\\resources\\app\\node_modules\\appium\\build\\lib\\main.js"));
